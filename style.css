@@ -1,3 +1,52 @@
 body {
+  margin: 0;
+  font-family: "Fredoka One", cursive;
   background-color: #151516;
 }
+section {
+  height: 480px;
+}
+/*css of topsection starts here*/
+.top-section {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+}
+.top-section h1 {
+  font-size: 50px;
+  color: white;
+}
+.top-section p {
+  color: rgb(173, 173, 173);
+}
+.half-width {
+  float: left;
+  width: 40%;
+  margin-left: 40px;
+  padding: 5px;
+}
+.half-width img {
+  margin-top: 20px;
+  width: 90%;
+}
+.half-width h3 {
+  color: #12e1cf;
+  letter-spacing: 2px;
+}
+.text-highlight {
+  font-size: 75px;
+  color: #00ccff;
+}
+.name-highlight {
+  color: rgb(255, 0, 200);
+  font-size: larger;
+  letter-spacing: 1px;
+}
+.find-me {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  background-image: linear-gradient(90deg, #00ffd5, #00ccff);
+  height: 40px;
+  font-size: 30px;
+  padding: 10px 20px;
+}
+/*css of topsection ends here*/
